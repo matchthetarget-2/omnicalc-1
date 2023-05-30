@@ -126,7 +126,7 @@ GEM
     draft_generators (0.0.3)
       devise
       indefinite_article
-    draft_matchers (0.0.1)
+    draft_matchers (0.0.2)
       capybara
       color_namer
       rspec
