@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>VanillaRails7</title>
+    <title>Omnicalc 1</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,37 @@
   </head>
 
   <body>
+    <table style="width: 100%" border="1">
+      <tr>
+        <td>
+          <strong>Targets</strong>
+        </td>
+
+        <td>
+          <a href="/square/new">
+            Square with Form
+          </a>
+        </td>
+
+        <td>
+          <a href="/square_root/new">
+            Square Root with Form
+          </a>
+        </td>
+
+        <td>
+          <a href="/payment/new">
+            Payment with Form
+          </a>
+        </td>
+
+        <td>
+          <a href="/random/new">
+            Random with Form
+          </a>
+        </td>
+      </tr>
+    </table>
     <%= yield %>
   </body>
 </html>
